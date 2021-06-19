@@ -1,0 +1,14 @@
+.search-results-categories {
+    .media-item,
+    .show-all {
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+    .show-all {
+        font-size: 12px;
+    }
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: $baseFont;
+    &:focus{
+        outline: none;
+    }
+    &:active{
+        outline: none;
+    }
+}
+// P/LABLE STYLE FONT:
+// H1-6 FONTS
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Fredoka+One&family=Lato:wght@700&family=Muli:wght@200&family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap");
+html {
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Rubik", "Rubik";
+    color: #373538;
+    margin: 0;
+}
+
+a {
+    text-decoration-line: none;
+    color:unset;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+p {
+    font-family: "Rubik", "Rubik";
+    color: #373538;
+    line-height: 1rem;
+}
+label,
+span {
+    font-family: "Rubik", "Rubik";
+}
+
+.btn {
+    cursor: pointer;
+    height: 50px;
+    color: #ffffff;
+    width: 70px;
+    font-weight: 100;
+    background-color: $Black;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    border: none;
+    &:active {
+        transform: scale(0.999);
+    }
+    &:hover {
+        background-color: $Very-Dark-Gray;
+    }
+    :focus {
+        outline: none;
+    }
+}
+option {
+    font-family: "Rubik", "Rubik";
+}

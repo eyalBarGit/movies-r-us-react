@@ -1,0 +1,14 @@
+.search-bar {
+    border: 1px solid lightgray;
+    width: 350px;
+    border-radius: 15px;
+    position: relative;
+    input {
+        border-radius: 15px;
+        width: 100%;
+        height: 35px;
+        border: none;
+        outline: none;
+        padding-left: 15px;
+    }
+}
