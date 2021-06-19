@@ -17,9 +17,9 @@
         p {
             color: #fff;
         }
-        .left-side{
-            .details{
-                p{
+        .left-side {
+            .details {
+                p {
                     margin-right: 10px;
                 }
             }
@@ -31,6 +31,14 @@
             }
             .star {
                 color: gold;
+            }
+        }
+    }
+    .bottom-section {
+        .media-plot {
+            padding-bottom: 20px;
+            p {
+                color: #fff;
             }
         }
     }

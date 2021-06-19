@@ -3,9 +3,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router';
 import { getItemById } from '../../store/actions/media.Actions'
 import { SearchBar } from '../../cmps/SearchBar/SearchBar';
-import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
 import { BsFillStarFill } from 'react-icons/bs';
+import imgPlaceHolder from '../../assests/image_placeholder.jpg'
 
 export function ItemDetails() {
   const { detailedItem } = useSelector(state => state.mediaReducer)
@@ -47,7 +46,14 @@ export function ItemDetails() {
             }
           </div>
         </div>
-
+        <div className="mid-section flex justify-center">
+          <img src={detailedItem.Poster === 'N/A' ? imgPlaceHolder : detailedItem.Poster} alt="" />
+        </div>
+        <div className="bottom-section">
+          <div className="media-plot">
+            <p>{detailedItem.Plot === 'N/A' ? 'No Plot found' : detailedItem.Plot}</p>
+          </div>
+        </div>
       </div>
     </div>
   )
